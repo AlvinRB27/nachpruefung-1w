@@ -1,8 +1,10 @@
 import {read, print, exercise} from "./utils.js"
 
-// Gib das Element an der Stelle `pos` zurück
-function numAt(array, pos) {
-  return array[pos]
+
+  
+// Gib die Zahl an der Stelle i zurück
+function numAt(numbers, i) {
+return array[pos]
 }
 
 function fillNumbers(numbers, {start, stop, step}) {
@@ -11,12 +13,12 @@ function fillNumbers(numbers, {start, stop, step}) {
   }
 }
 
-function parseInput(input) {
-  let arr = input.split(" ")
+function parseInput() {
+  let arr = read().split(" ")
   let start = 0
   let stop = 1
   let step = 1
-  if (arr.length > 0 && input.length > 0) {
+  if (arr.length > 0 && read().length > 0) {
     stop = parseInt(arr[0])
   }
   if (arr.length > 1) {
@@ -30,9 +32,7 @@ function parseInput(input) {
 }
 
 function calcSum(numbers) {
-  let sum = 0
-  numbers.map(num => sum += num)
-  return sum
+  return numbers.reduce((a, b) => a + b)
 }
 
 
