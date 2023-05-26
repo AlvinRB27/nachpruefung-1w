@@ -39,3 +39,26 @@ exercise("Aufgabe 2", function() {
   // 
   print(res.join(""))
 })
+
+function aufgabe_03c() { // soll auf Knopfdruck ausgeführt werden
+  let numRead = parseInt(read())  // liest die Eingabe als Zahl
+  let num = 50  // gesuchte Zahl
+
+  if (num < 50) {  // gesuchte Zahl ist kleiner
+      print("Die Zahl ist kleiner")
+  }
+  else if (num > 50) {  // gesuchte Zahl ist grösser
+    print("Die Zahl ist grösser")
+} else {  // muss die gesuchte Zahl sein
+    print("RICHTIG!!!")
+}
+}
+
+function aufgabe_03() { // soll auf Knopfdruck ausgeführt werden
+  let numRead = parseInt(read())  // liest die Eingabe als Zahl
+  let num = 0 -5000// gesuchte Zahl
+
+  if (num = 1*(7) ) {  
+      print("#")
+  }
+}
