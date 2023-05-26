@@ -62,3 +62,25 @@ function aufgabe_03() { // soll auf Knopfdruck ausgeführt werden
       print("#")
   }
 }
+//ich habe nicht genau gewusst, wie ich alle zahlen bis 5000 programmieren konnte, 
+//deshalb mchte ich es von 0-50
+function aufgabe_siebenerreihe() {
+ 
+  num = [7, 14, 21, 28, 35, 42, 49]
+
+  // Erstes Element
+  print( num[7] )
+
+  // Letztes Element
+  print( num[ num.length - 1 ] )
+
+  if(num=num){
+    print(num = "#")
+  }
+  for (let i = 0; i < num.length; i++) {
+    print( num[i] )
+}
+
+
+
+}
