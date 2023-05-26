@@ -18,11 +18,11 @@ exercise("Beispiel", function() {
 
 
 exercise("Aufgabe 2", function() {
-  // Aufgabe 2 (b)
+  // Durch  Input etwas lesen und das, was in "" ist teieln
   // 
   let input = read().split("")
 
-  // Aufgabe 2 (c)
+  // Die 
   // 
   let res = []
 
@@ -30,12 +30,12 @@ exercise("Aufgabe 2", function() {
   // 
   for (let i = 0; i < input.length; i++) {
 
-    // Aufgabe 2 (e)
+    // Den Input zu toUpperCase bewegen
     // 
     res.push(input[i].toUpperCase())
   }
 
-  // Aufgabe 2 (f)
+  // Das, was in "" wiedergeben
   // 
   print(res.join(""))
 })
